@@ -10,7 +10,6 @@
 
 
 
-
 /*Seccion 1*/
 
 .seccion_1{
@@ -80,7 +79,10 @@ min-width: 375px;
 .boton_azul:hover{
   background: hsl(231, 54%, 46%);
   color: white;
-
+}
+.boton_azul a{
+  text-decoration: none !important;
+  color: white !important;
 }
 .boton_rojo{
   background: hsl(0, 94%, 66%);
@@ -295,6 +297,12 @@ min-width: 375px;
   margin:5% auto;
   width: 30%;
   min-width: 350px;
+  border: none;
+}
+.boton_acordeon a{
+  text-decoration: none !important;
+  color: black !important;
+
 }
 
 
@@ -370,4 +378,7 @@ min-width: 375px;
 
 .btn:hover{
   color: white !important;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-radius: 1px !important;
 }
